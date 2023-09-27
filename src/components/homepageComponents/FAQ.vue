@@ -1,5 +1,5 @@
 <template>
-  <section class="py-[3.75rem]">
+  <section class="py-[3.75rem] wrapper">
     <section class="px-[3rem]">
       <div>
         <h2 class="text-center mb-[0.38rem]">
@@ -8,7 +8,7 @@
         </h2>
         <h5 class="text-center">
           We got answers to the questions that you might<br />
-          want to ask about getlinked Hackathon 1.0
+          want to ask about getlinked Hackathon 1.0 
         </h5>
       </div>
 
@@ -22,8 +22,15 @@
       </section>
     </section>
 
-    <section class="flex justify-center mt-[5rem]">
+    <section class="flex  justify-center mt-[5rem] ">
+        <div>
+        <div class="flex gap-x-10 pl-12 mb-0">
+            <img src="../../assets/svg/fadedQuestion.svg"/>
+        <img src="../../assets/svg/questionMark.svg"/>
+        <img src="../../assets/svg/fadedQuestion.svg"/>
+    </div>
         <img src="../../assets/svg/thinking.svg" alt="thinking man"/>
+    </div>
     </section>
   </section>
 </template>
