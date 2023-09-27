@@ -1,5 +1,5 @@
 <template>
-  <section class="wrapper mb-[200px]">
+  <section class="wrapper ">
     <section class="md:w-[85%] md:mx-auto ">
     <section class="w-[75%] mx-auto md:w-[100%]">
       <div class="flex md:justify-end justify-center">
@@ -68,6 +68,7 @@ export default {
   background-image: url(../../assets/svg/highlight.svg);
   background-repeat: no-repeat;
   background-size: contain;
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.18);
 }
 h2 {
   color: #fff;
@@ -94,18 +95,5 @@ font-style: normal;
 font-weight: 400;
 line-height: 166%; /* 1.34875rem */
 }
-button {
-  color: #fff;
-  margin-top: 1.5rem;
-  padding: 1rem 3rem;
-  /* width: 70%; */
-  border-radius: 0.25rem;
-  background: linear-gradient(
-    270deg,
-    #903aff 0%,
-    #d434fe 56.42%,
-    #ff26b9 99.99%,
-    #fe34b9 100%
-  );
-}
+
 </style>

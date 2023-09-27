@@ -62,7 +62,7 @@ export default {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 0.5px solid white;
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.18);
   
 }
 
