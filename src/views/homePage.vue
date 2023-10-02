@@ -7,6 +7,8 @@
       <Rules/>
       <judging/>
       <FAQ/>
+      <TimeLine/>
+      <PrizesVue/>
       
 
     </div>
@@ -19,6 +21,8 @@
  import Rules from "@/components/homepageComponents/Rules.vue";
  import judging from "@/components/homepageComponents/judging.vue"
  import FAQ from "@/components/homepageComponents/FAQ.vue";
+ import TimeLine from "@/components/homepageComponents/timeline.vue";
+ import PrizesVue from "@/components/homepageComponents/Prizes.vue";
 
   export default {
     components:{
@@ -27,7 +31,10 @@
         BigIdea,
         Rules,
         judging,
-        FAQ
+        FAQ,
+        TimeLine,
+        PrizesVue
+        
     },
     name: 'homePage',
     

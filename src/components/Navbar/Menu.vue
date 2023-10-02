@@ -4,7 +4,7 @@
       <img src="../../assets/svg/close.svg" alt="close menu"/>
     </div>
     <div class="list">
-    <h3>Timeline</h3>
+    <h3>Timelinesign</h3>
     <h3>Overview</h3>
     <h3>FAQs</h3>
     <h3>Contact</h3>
@@ -25,6 +25,7 @@
   <style scoped>
   .sec{
     padding: 3.37rem;
+    height: 100vh;
   }
   .close{
  display: flex;

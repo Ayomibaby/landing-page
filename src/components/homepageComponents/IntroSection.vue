@@ -3,7 +3,7 @@
     <section class="md:w-[85%] md:mx-auto ">
     <section class="w-[75%] mx-auto md:w-[100%]">
       <div class="flex md:justify-end justify-center">
-        <h2 class="md:text-[2.25rem] text-[1rem] italic">
+        <h2 class="md:text-[2.25rem] text-[0.85rem] italic">
           Igniting a Revolution in HR Innovation
         </h2>
       </div>
@@ -25,22 +25,33 @@
       class="mt-[2rem]  w-[80%] md:w-[55%] md:mx-0 mx-auto text-center md:text-start "
     >
       <section class="text-[2rem] md:text-[5rem]">
-        <div class=" flex justify-end w-[76%] md:w-[65%] mb-[-3%] ">
-        <img src="../../assets/svg/lightbulb.svg" />
-      </div>
-        <h2 >getlinked Tech</h2>
+
+        <!-- <div class=" flex justify-between mx-auto  w-[50%] md:w-[65%] "> -->
+          <img src="../../assets/svg/brightWhiteStar.svg" class="relative left-[35%] "/>
+        
+        <img src="../../assets/svg/inactiveStar.svg" class="absolute right-[20%] "/>
+        <img src="../../assets/svg/lightbulb.svg" class="relative left-[72%] mb-[-3%]" />
+      <!-- </div> -->
+
+     
+
+        <h2  class="md:text-[5rem] text-[2rem] ">getlinked Tech</h2>
+
         <div class="flex justify-center md:justify-start">
-          <h2>Hackathon <span class="text-[#D434FE]"> 1.0</span></h2>
+          <h2  class="md:text-[5rem] text-[2rem] ">Hackathon <span class="text-[#D434FE]"> 1.0</span></h2>
           <img src="../../assets/svg/chain.svg" alt="chain" />
           <img src="../../assets/svg/explosive.svg" alt="pow" />
         </div>
       </section>
-      <div class="w-[80%] md:w-[65%] mx-auto md:mx-0 md:text-left mt-[0.5rem]">
-        <p class="md:text-[1.25rem] text-[0.85rem]">
+      <div class="w-[90%] md:w-[65%] mx-auto md:mx-0 md:text-left mt-[0.5rem]">
+        <p class="md:text-[1.25rem] text-[0.8125rem]">
           Participate in getlinked tech Hackathon 2023 stand a chance to win a
           Big prize
         </p>
+        <div >
         <button>Register</button>
+        <img src="../../assets/svg/inactiveStar.svg"/>
+      </div>
       </div>
       <div class="mt-[0.75rem]">
         <h4>00<span class="text-[0.875rem]">H</span> 00<span class="text-[0.875rem]">M</span>  00<span class="text-[0.875rem]">S</span></h4>

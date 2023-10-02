@@ -117,6 +117,7 @@ line-height: normal;
 }
 .sec {
   padding: 3.37rem;
+  height: 100vh;
 }
 .close {
   display: flex;
