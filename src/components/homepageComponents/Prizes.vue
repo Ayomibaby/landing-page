@@ -14,6 +14,8 @@
     <div class="flex justify-center">
     <img src="../../assets/svg/throphy.svg" class="w-[20rem] h-[17rem] mt-[2.5rem] " />
   </div>
+
+  <section></section>
   </section>
 </template>
 
