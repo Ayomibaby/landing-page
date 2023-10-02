@@ -2,56 +2,61 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-    background-color: #150E28;
-    
+body {
+  background-color: #150e28;
 }
 
-h2{
-    color: #fff;
-font-family: Clash Display;
-font-size: 1.25rem;
+h2 {
+  color: #fff;
+  font-family: Clash Display;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 133%;
+}
+h3{
+  font-family: Montserrat;
+font-size: 0.875rem;
 font-style: normal;
 font-weight: 700;
-line-height: 133%;
+line-height: 216.4%; /* 1.8935rem */
 }
 
-h5{
-    color: #FFF;
-/* text-align: center; */
-font-family: Montserrat;
-font-size: 0.75rem;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+h5 {
+  color: #fff;
+  /* text-align: center; */
+  font-family: Montserrat;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
-p{
-    color: #fff;
-    text-align: center;
-    font-family: Montserrat;
-    font-size: 0.8125rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.71875rem;
+p {
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 0.8125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.71875rem;
 }
 
 .wrapper {
-    border-bottom: 0.5px solid rgba(255, 255, 255, 0.18);
-  }
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.18);
+}
 
-  button {
-    color: #fff;
-    margin-top: 1.5rem;
-    padding: 1rem 3rem;
-    /* width: 70%; */
-    border-radius: 0.25rem;
-    background: linear-gradient(
-      270deg,
-      #903aff 0%,
-      #d434fe 56.42%,
-      #ff26b9 99.99%,
-      #fe34b9 100%
-    );
-  }
-
+button {
+  color: #fff;
+  margin-top: 1.5rem;
+  padding: 1rem 3rem;
+  /* width: 70%; */
+  border-radius: 0.25rem;
+  background: linear-gradient(
+    270deg,
+    #903aff 0%,
+    #d434fe 56.42%,
+    #ff26b9 99.99%,
+    #fe34b9 100%
+  );
+}
