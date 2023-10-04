@@ -8,7 +8,7 @@
     <h3>Overview</h3>
     <h3>FAQs</h3>
     <h3>Contact</h3>
-    <button>Register</button>
+    <button class="button">Register</button>
 </div>
 </section>
   </template>

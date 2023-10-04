@@ -44,7 +44,7 @@
         </div>
 
         <div class="mt-[2rem]">
-            <button>Read More</button>
+            <button class="button">Read More</button>
         </div>
       </section>
     </section>

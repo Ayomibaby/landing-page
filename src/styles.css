@@ -46,7 +46,7 @@ p {
   border-bottom: 0.5px solid rgba(255, 255, 255, 0.18);
 }
 
-button {
+.button {
   color: #fff;
   margin-top: 1.5rem;
   padding: 1rem 3rem;

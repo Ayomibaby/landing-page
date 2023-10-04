@@ -49,7 +49,7 @@
           Big prize
         </p>
         <div >
-        <button>Register</button>
+        <button class="button">Register</button>
         <img src="../../assets/svg/inactiveStar.svg"/>
       </div>
       </div>

@@ -1,6 +1,6 @@
 <template>
   <section class="bg-[#100B20]">
-    <section class="w-[68%] mx-auto mt-[25rem] py-[3rem]">
+    <section class="w-[68%] mx-auto mt-[25rem] py-[3rem] text-left">
         <section>
       <section>
         <h2>get <span class="text-[#D434FE]">linked </span></h2>

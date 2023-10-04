@@ -17,7 +17,7 @@
           <li>FAQs</li>
           <li>Contact</li>
           <li>
-            <button>Register</button>
+            <button class="button">Register</button>
           </li>
         </ul>
       </div>
