@@ -10,6 +10,8 @@
       <TimeLine/>
       <PrizesVue/>
       <Partners/>
+      <PrivacyPolicy/>
+      <Footer/>
       
 
     </div>
@@ -25,6 +27,8 @@
  import TimeLine from "@/components/homepageComponents/timeline.vue";
  import PrizesVue from "@/components/homepageComponents/Prizes.vue";
  import Partners from "@/components/homepageComponents/Partners.vue";
+ import PrivacyPolicy from "@/components/homepageComponents/PrivacyPolicy.vue";
+ import Footer from "@/components/homepageComponents/Footer.vue";
 
   export default {
     components:{
@@ -36,7 +40,9 @@
         FAQ,
         TimeLine,
         PrizesVue,
-        Partners
+        Partners,
+        PrivacyPolicy,
+        Footer
         
     },
     name: 'homePage',

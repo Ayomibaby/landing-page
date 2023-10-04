@@ -1,5 +1,5 @@
 <template>
-  <section class="py-[5rem] wrapper w-[90%] mx-auto">
+  <section class="py-[5rem] bg-[#100B20] w-[90%] mx-auto">
 
     <div>
     <h2 class="text-center">
