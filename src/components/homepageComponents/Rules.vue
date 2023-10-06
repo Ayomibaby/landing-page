@@ -1,5 +1,6 @@
 <template>
-  <section class="py-[2rem] wrapper mb-2">
+  <section class="wrapper">
+  <section class="py-[2rem] w-[90%] mx-auto  mb-2 flex flex-col lg:flex-row lg:justify-between lg:items-center">
     <section class="flex justify-center mb-[0.63rem] woman-img">
       <img src="../../assets/svg/brightWhiteStar.svg"/>
       <img src="../../assets/svg/puzzle.svg" alt="woman" />
@@ -16,6 +17,7 @@
       </p>
     </section>
   </section>
+</section>
 </template>
 
 <script>
