@@ -1,6 +1,6 @@
 <template>
-  <section class="wrapper ">
-    <section class="md:w-[85%] md:mx-auto ">
+  <section class="wrapper flex justify-center">
+    <section class="md:w-[90%] md:mx-auto max-w-[1500px] ">
     <section class="w-[75%] mx-auto md:w-[100%]">
       <div class="flex md:justify-end justify-center">
         <h2 class="md:text-[2.25rem] text-[0.85rem] italic">
@@ -22,7 +22,7 @@
 
     <section class="md:flex">
     <section
-      class="mt-[2rem]  w-[80%] md:w-[55%] md:mx-0 mx-auto text-center md:text-start "
+      class="mt-[2rem]  w-[80%] lg:w-[65%] md:mx-0 mx-auto text-center md:text-start "
     >
       <section class="text-[2rem] md:text-[5rem]">
 
@@ -30,26 +30,26 @@
           <img src="../../assets/svg/brightWhiteStar.svg" class="relative left-[35%] "/>
         
         <img src="../../assets/svg/inactiveStar.svg" class="absolute right-[20%] "/>
-        <img src="../../assets/svg/lightbulb.svg" class="relative left-[72%] mb-[-3%]" />
+        <img src="../../assets/svg/lightbulb.svg" class="relative left-[78%] lg:left-[60%] mb-[-3%] w-[1.1rem] h-[1.6rem] lg:w-[3.3rem] lg:h-[3.6rem]" />
       <!-- </div> -->
 
      
 
-        <h2  class="md:text-[5rem] text-[2rem] ">getlinked Tech</h2>
+        <h2  class="lg:text-[4rem] text-[2rem] ">getlinked Tech</h2>
 
         <div class="flex justify-center md:justify-start">
-          <h2  class="md:text-[5rem] text-[2rem] ">Hackathon <span class="text-[#D434FE]"> 1.0</span></h2>
-          <img src="../../assets/svg/chain.svg" alt="chain" />
-          <img src="../../assets/svg/explosive.svg" alt="pow" />
+          <h2  class="lg:text-[4rem] text-[2rem] ">Hackathon <span class="text-[#D434FE]"> 1.0</span></h2>
+          <img src="../../assets/svg/chain.svg" alt="chain" class="w-[2rem] h-[2rem] lg:w-[5rem] lg:h-[5rem]" />
+          <img src="../../assets/svg/explosive.svg" alt="pow" class="w-[2rem] h-[2rem] lg:w-[4.5rem] lg:h-[4.5rem]" />
         </div>
       </section>
-      <div class="w-[90%] md:w-[65%] mx-auto md:mx-0 md:text-left mt-[0.5rem]">
-        <p class="md:text-[1.25rem] text-[0.8125rem]">
+      <div class="w-[90%]  mx-auto md:mx-0  mt-[0.5rem]">
+        <p class="lg:text-[1.25rem] text-[0.8125rem] lg:text-left">
           Participate in getlinked tech Hackathon 2023 stand a chance to win a
           Big prize
         </p>
         <div >
-        <button class="button">Register</button>
+        <button class="button mt-[3rem]">Register</button>
         <img src="../../assets/svg/inactiveStar.svg"/>
       </div>
       </div>
@@ -57,8 +57,9 @@
         <h4>00<span class="text-[0.875rem]">H</span> 00<span class="text-[0.875rem]">M</span>  00<span class="text-[0.875rem]">S</span></h4>
       </div>
     </section>
-    <section class="mt-[0.85rem] md:w-[45%]">
-      <img src="../../assets/svg/hackathonguy.svg" />
+    <section class="mt-[0.85rem] md:w-[45%] container-row">
+      <img src="../../assets/svg/hackathonguy.svg" class="layer1"  />
+      <img src="../../assets/svg/ShinyGlobe.svg" class="layer2"/>
     </section>
   </section>
   </section>
@@ -72,6 +73,14 @@ export default {
 </script>
 
 <style scoped>
+.container-row{
+  display: grid;
+}
+
+.layer1, .layer2{
+  grid-column: 1;
+  grid-row: 1;
+}
 .wrapper {
   /* width: 85%;
   margin: auto; */

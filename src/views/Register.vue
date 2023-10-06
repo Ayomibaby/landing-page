@@ -77,12 +77,24 @@
       <button class="button">Submit</button>
     </div>
     </section>
+
+    <div v-show="isRegistered"><Confirmation/></div>
+    
   </section>
 </template>
 
 <script>
+import Confirmation from "../components/modal/Confirmation.vue"
 export default {
   name: "RegisterTion",
+  components:{
+    Confirmation
+  }, 
+  data(){
+    return{
+      isRegistered: false
+    }
+  }
 };
 </script>
 
@@ -90,7 +102,7 @@ export default {
 .container {
   width: 70%;
   margin: auto;
-  padding-top: 2rem;
+  padding: 2rem 0;
 }
 .movement-div {
   display: flex;

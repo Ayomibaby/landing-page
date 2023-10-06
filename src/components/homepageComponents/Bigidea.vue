@@ -1,5 +1,5 @@
 <template>
-  <section class="py-[2rem]  mx-auto wrapper md:flex md:justify-between">
+  <section id="overview" class="py-[2rem]  mx-auto wrapper md:flex md:justify-between">
     <div class="mb-[3rem]">
       <div class="flex justify-center">
         <img  src="../../assets/svg/smallPurpleStar.svg"/>

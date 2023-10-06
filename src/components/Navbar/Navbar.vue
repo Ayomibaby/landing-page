@@ -1,7 +1,7 @@
 <template>
-  <section>
-    <section class="nav  py-[1.5rem] px-[2rem] md:px-[7rem]">
-      <h2 class="md:text-[2.25rem] text-[0.9375rem]">get<span class="linked">linked</span></h2>
+  <section class=" main-wrapper ">
+    <section class="nav  w-[75%] py-[1.5rem] md:w-[90%] md:pb-[1.5rem] md:pt-[3rem]   ">
+      <h2 class="md:text-[2.25rem] text-[0.9375rem] cursor-pointer" @click="homePage">get<span class="linked">linked</span></h2>
 
       <div class="contents md:hidden">
         <img
@@ -12,12 +12,12 @@
       </div>
       <div class="hidden md:contents">
         <ul class="nav-list">
-          <li class="nav-item">Timeline</li>
-          <li>Overview</li>
-          <li>FAQs</li>
-          <li>Contact</li>
+          <li class="nav-item" @click="NavigateTosection('#timeline')">Timeline</li>
+          <li @click="NavigateTosection('#overview')">Overview</li>
+          <li @click="NavigateTosection('#faq')">FAQs</li>
+          <li @click="contactPage" >Contact</li>
           <li>
-            <button class="button">Register</button>
+            <button class="button" @click="RegisterPage">Register</button>
           </li>
         </ul>
       </div>
@@ -33,11 +33,11 @@
           />
         </div>
         <div class="menu-list">
-          <h3>Timeline</h3>
-          <h3>Overview</h3>
-          <h3>FAQs</h3>
-          <h3>Contact</h3>
-          <button class="mt-[2rem]">Register</button>
+          <h3 @click="NavigateTosection('#timeline')">Timeline</h3>
+          <h3 @click="NavigateTosection('#overview')">Overview</h3>
+          <h3 @click="NavigateTosection('#faq')">FAQs</h3>
+          <h3 @click="contactPage">Contact</h3>
+          <button class=" button mt-[2rem]" @click="RegisterPage">Register</button>
         </div>
       </section>
     </section>
@@ -51,18 +51,47 @@ export default {
   data() {
     return {
       mobile: false,
-    };
+    }
   },
+  methods:{
+    RegisterPage(){
+      this.$router.push("/register")
+    }, 
+    homePage(){
+      this.$router.push("/")
+    }, 
+    contactPage(){
+      this.$router.push("/contact")
+    },
+    NavigateTosection(select){
+     const toGo = document.querySelector(select)
+
+     toGo.scrollIntoView({
+      behavior: 'smooth'
+     });
+
+     if(this.mobile == true)
+     this.mobile = false
+
+    }
+  }
 };
 </script>
 
 <style scoped>
+.main-wrapper{
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.18); 
+  display: flex ;
+  justify-content: center;
+}
 .nav {
   /* padding: 1.5rem ; */
+  /* width: 75%; */
+  margin: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 0.5px solid rgba(255, 255, 255, 0.18);
+ 
   
 }
 
@@ -84,20 +113,23 @@ h3 {
 
   margin-top: 2rem;
 }
-button {
+li{
+  cursor: pointer;
+}
+/* button {
   color: #fff;
   /* margin-top: 2rem; */
-  padding: 1rem 3rem;
+  /* padding: 1rem 3rem; */
   /* width: 70%; */
-  border-radius: 0.25rem;
+  /* border-radius: 0.25rem;
   background: linear-gradient(
     270deg,
     #903aff 0%,
     #d434fe 56.42%,
     #ff26b9 99.99%,
     #fe34b9 100%
-  );
-}
+  ); */
+/* } */ 
 .nav-list {
   display: flex;
   color: white;

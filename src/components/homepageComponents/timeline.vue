@@ -1,5 +1,5 @@
 <template>
-  <section class="wrapper py-[5rem]">
+  <section class="wrapper py-[5rem]" id="timeline">
     <div class="px-[3rem]">
       <h2 class="text-center pb-[1rem]">Timeline</h2>
       <p>

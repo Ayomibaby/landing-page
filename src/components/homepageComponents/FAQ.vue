@@ -1,5 +1,5 @@
 <template>
-  <section class="py-[3.75rem] wrapper">
+  <section id="faq" class="py-[3.75rem] wrapper" >
     <section class="px-[3rem]">
       <div>
         <h2 class="text-center mb-[0.38rem]">
