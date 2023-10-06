@@ -1,6 +1,6 @@
 <template>
   <section id="overview" class="wrapper flex justify-center" >
-  <section class="py-[2rem]  mx-auto  md:flex md:justify-between md:items-center w-[90%] max-w-[1500px] ">
+  <section class="py-[2rem]  mx-auto  md:flex md:justify-between md:items-center w-[90%] max-w-[1500px]">
     <div class="mb-[3rem]">
       <div class="flex justify-center">
         <img  src="../../assets/svg/smallPurpleStar.svg"/>
