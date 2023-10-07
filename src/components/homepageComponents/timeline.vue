@@ -1,20 +1,30 @@
 <template>
-  <section class="wrapper py-[5rem]" id="timeline">
+  <section id="timeline" class="wrapper">
+  <section class="py-[5rem] w-[90%] mx-auto  max-w-[1500px]" >
     <div class="px-[3rem]">
-      <h2 class="text-center pb-[1rem]">Timeline</h2>
+      <h2 class="text-center pb-[1rem] lg:text-[2rem]">Timeline</h2>
       <p>
-        Here is the breakdown of the time we anticipate using for the upcoming
+        Here is the breakdown of the time we anticipate <br/>  using for the upcoming
         event.
       </p>
     </div>
 
-    <section class="w-[90%] mx-auto mt-[3rem]">
-    <img src="../../assets/svg/smallPurpleStar.svg" class="relative left-[20%] width-[0.875rem] height-[1rem]"/>
+   
+   
+      <div class="flex  mt-[3rem]">
+        <div>
+    <!-- <img src="../../assets/svg/smallPurpleStar.svg" class="relative left-[20%] width-[0.875rem] height-[1rem]"/> -->
       <Steps v-for="step in StepsTotake" :directions="step" :key="step.no"/>
- 
-        <img src="../../assets/svg/inactiveStar.svg" class="mt-4"/>
-    </section>
+<!--  </div>
+        <img src="../../assets/svg/inactiveStar.svg" class="mt-4"/> -->
+        </div>
+      </div>
+    
+
   </section>
+
+  </section>
+
 </template>
 
 <script>

@@ -1,8 +1,8 @@
 <template>
   <section class="bg-[#100B20]">
-    <section class="w-[68%] mx-auto mt-[25rem] py-[3rem] text-left">
-        <section>
-      <section>
+    <section class="w-[68%] lg:w-[90%]  mx-auto mt-[25rem] py-[3rem] text-left">
+        <section class="lg:flex lg:gap-x-16">
+      <section class="lg:w-[40%]">
         <h2>get <span class="text-[#D434FE]">linked </span></h2>
         <h5 class="mt-[1rem] leading-6">
           Getlinked Tech Hackathon is a technology innovation program
@@ -14,7 +14,8 @@
           <h5>Privacy Policy</h5>
         </div>
       </section>
-      <section class="mt-[2rem]">
+
+      <section class="mt-[2rem] lg:mt-0 lg:w-[25%]">
         <h3 class="text-[#D434FE]">Useful Links</h3>
         <div class="flex flex-col gap-y-3">
           <h5>Overview</h5>
@@ -32,7 +33,8 @@
           </div>
         </div>
       </section>
-      <section class="mt-[4rem]">
+
+      <section class="mt-[4rem] lg:mt-0 lg:w-[25%]">
         <h3 class="text-[#D434FE]">Contact us</h3>
 
         <div class="flex gap-x-4 mt-4">
@@ -44,9 +46,10 @@
           <h5>27,Alara Street Yaba 100012 Lagos State</h5>
         </div>
       </section>
+
     </section>
 
-      <section class=" mt-[4rem]">
+      <section class=" mt-[4rem] lg:text-center">
         <h5>All rights reserved. © getlinked Ltd.</h5>
       </section>
 

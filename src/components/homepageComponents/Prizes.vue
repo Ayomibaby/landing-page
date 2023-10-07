@@ -1,5 +1,6 @@
 <template>
-  <section class="py-[5rem] bg-[#100B20] w-[90%] mx-auto">
+  <section class="bg-[#100B20]">
+  <section class="py-[5rem]  w-[90%] mx-auto">
 
     <div>
     <h2 class="text-center">
@@ -20,6 +21,7 @@
     
   </section>
   </section>
+</section>
 </template>
 
 <script>
