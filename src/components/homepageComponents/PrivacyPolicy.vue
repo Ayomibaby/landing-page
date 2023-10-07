@@ -1,18 +1,21 @@
 <template>
-  <section class=" py-[5rem] text-center w-[80%] mx-auto">
+  <section class="flex justify-center">
+  <section class=" py-[5rem] text-center lg:text-left w-[90%] mx-auto  max-w-[1500px]  lg:flex lg:justify-between lg:items-center">
+    <section class="lg:w-[50%]">
+      
     <section>
       <h2>
         Privacy Policy and <span class="text-[#D434FE] block"> Terms </span>
       </h2>
-      <h5>Last updated on September 12, 2023</h5>
+      <h5 class="lg:mt-[1rem]">Last updated on September 12, 2023</h5>
       <h5 class="mt-[1.75rem]">
         Below are our privacy & policy, which outline a lot of goodies. it’s our
         aim to always take of our participant
       </h5>
     </section>
 
-    <section class="policy">
-      <h5 class="leading-6 mb-[1.31rem]">
+    <section class="policy lg:px-[4.5rem] px-[0.85rem] py-[3rem]">
+      <h5 class="leading-6 mb-[1.31rem] lg:text-[0.85rem] text-left">
         At getlinked tech Hackathon 1.0, we value your privacy and are committed
         to protecting your personal information. This Privacy Policy outlines
         how we collect, use, disclose, and safeguard your data when you
@@ -43,17 +46,24 @@
           </div>
         </div>
 
-        <div class="mt-[2rem]">
+        <div class="mt-[2rem] flex justify-center">
             <button class="button">Read More</button>
         </div>
       </section>
     </section>
-    <section class="flex justify-center flex-col ">
-    <section class="relative">
-        <img src="../../assets/svg/GiantShield.svg" class="absolute top-0 left-0"/>
-        <img src="../../assets/svg/openedLock.svg" class="absolute top-[100px] left-0" />
-      </section>
+
   </section>
+
+    <section class="flex justify-center flex-col lg:w-[40%]">
+
+    <section class="container-row">
+        <img src="../../assets/svg/GiantShield.svg" class="layer1"/>
+        <img src="../../assets/svg/openedLock.svg" class="layer2" />
+      </section>
+
+  </section>
+
+</section>
 </section>
 </template>
 
@@ -64,8 +74,16 @@ export default {
 </script>
 
 <style scoped>
+.container-row{
+  display: grid;
+}
+
+.layer1, .layer2{
+  grid-column: 1;
+  grid-row: 1;
+}
 .policy {
-  padding: 3rem 0.95rem;
+  /* padding: 3rem 0.95rem; */
   margin: 1.85rem 0;
   border-radius: 0.3125rem;
   border: 1px solid #d434fe;
